@@ -42,7 +42,7 @@ const App = () => {
         setLoggedInUserData(adminObj);
         localStorage.setItem('loggedInUser', JSON.stringify({ role: 'admin', email }));
       } else {
-        alert('Invalid Credentials');
+        alert('Admin Not Found!');
       }
       localStorage.setItem('loggedInUser', JSON.stringify({ role: 'admin', email }));
     } else if (employeeObj.length > 0) {
@@ -52,10 +52,10 @@ const App = () => {
         setLoggedInUserData(employee);
         localStorage.setItem('loggedInUser', JSON.stringify({ role: 'employee', email }));
       } else {
-        alert('Invalid Credentials');
+        alert('User Not Found!');
       }
     } else {
-      alert('Invalid Credentials');
+      alert('User Not Found!');
     }
   };
   // console.log(adminObj)

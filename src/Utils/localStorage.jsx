@@ -12,7 +12,8 @@ const employee = [
                 "Failed": false,
                 "Title": "Prepare project report",
                 "Description": "Prepare and submit the project report for the IT infrastructure upgrade.",
-                "TaskDate": "2024-10-22"
+                "TaskDate": "2024-10-22",
+                "cetegory": "Report"
             },
             {
                 "Active": true,
@@ -21,7 +22,8 @@ const employee = [
                 "Failed": false,
                 "Title": "Client meeting",
                 "Description": "Attend the meeting with TCS for project discussion.",
-                "TaskDate": "2024-10-25"
+                "TaskDate": "2024-10-25",
+                "cetegory": "Meeting"
             }
         ],
         "taskCounts": {
@@ -44,7 +46,8 @@ const employee = [
                 "Failed": false,
                 "Title": "Develop website module",
                 "Description": "Develop the backend module for the e-commerce website.",
-                "TaskDate": "2024-10-20"
+                "TaskDate": "2024-10-20",
+                "cetegory": "Development"
             },
             {
                 "Active": false,
@@ -53,7 +56,8 @@ const employee = [
                 "Failed": false,
                 "Title": "Code review",
                 "Description": "Complete the code review of team members’ submissions.",
-                "TaskDate": "2024-10-18"
+                "TaskDate": "2024-10-18",
+                "cetegory": "Review"
             }
         ],
         "taskCounts": {

@@ -11,16 +11,16 @@ const TaskList = ({data}) => {
           {
             data? data.Tasks.map((elem)=>{
                     if (elem.Active){
-                       return <AcceptTask />
+                       return <AcceptTask data={elem} />
                     }
                     if(elem.NewTask){
-                        return <NewTask />
+                      return <NewTask data={elem} />
                     }
                     if (elem.Failed){
-                        return <FailedTask />
+                      return <FailedTask data={elem} />
                     }
                     if (elem.Completed){
-                       return <CompletedTask />
+                      return <CompletedTask data={elem} />
                     }
 
             }) : null
